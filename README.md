@@ -93,7 +93,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/4b11f20d-c618-46bb-b127-016fdbc60e9d)
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/f3ddb129-3d21-474a-a8f8-a0d3ab5be41e)
 
-**13.) Finally, we can look at RDP traffic which in this case will be spamming in traffic beacuse we are currently using rdp becasue we are connected to remote desktop live to connect to Virtual Machines even refreshing wont slow it down. Other than that this project showed me how port and protocols work within a live interaction and demonstration.  
+**13.) Finally, we can look at RDP traffic which in this case will be spamming in traffic beacuse we are currently using rdp becasue we are connected to remote desktop live to connect to Virtual Machines even refreshing wont slow it down. Other than that this project showed me how port and protocols work within a live interaction and demonstration.** 
 
 
 
