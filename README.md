@@ -66,6 +66,29 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 **7.) Now that we know we have a connection between VM's I will make a Perpetual Ping to VM2 and have a never ending amount of ICMP traffic just so I can go into VM2 Firewall and Block ICMP traffic.** 
 
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/bde93550-f0a8-41a5-824b-863ebf3aef2e)
+
+*8.) After the Perpetual ping we will gop back into Azure and go to Network Security Gropus and Deny Inbound ICMP traffic through Azures built in Firewall 
+
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/14cf392e-c31a-4608-aeca-d4d89328988b)
+
+**9.) When we come back into VM1 remote desktop you can see that pings are request only and timed out which shows that the firewall is working as it should be by blocking all inbound ICMP traffic then after you can have enable ICMP traffic back to allow instead of deny.**
+
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/8ca14ae2-b1c4-48d0-94cd-81f7fd197852)
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/88578312-8227-409f-ae0f-f7d8ee338987)
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/96d07219-0447-484e-b732-97de3197b35e)
+
+**10.) Next we will filter by SSH and try to connect to VM2 with SSH and at first there will be no SSH traffic until we hit enter. From there we can type Linix commands and make the SSH traffic spam even more then once your done you can type exit and it will leave SSH.**
+
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/f9d7fd63-422f-46d9-86e8-21f189705865)
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/b272f539-38a5-4ed4-9d52-5de31d9a89c4)
+
+**11.) Another Traffic we can observe is DHCP and again no traffic yet until we force a renewal our IP Address**
+
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/0330e645-1a19-4dec-ad8e-4876db5b46dc)
+
+**12.) After that we have DNS traffic and DNS traffic happens a lot in the background so we will have some already in the traffic and once we type "nslookup www.google.com" it replys with IP Address of google and it essentially looked up all the stuff about google and returned the IP Address to us.**
+
 
 
 
