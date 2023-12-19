@@ -89,6 +89,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 **12.) After that we have DNS traffic and DNS traffic happens a lot in the background so we will have some already in the traffic and once we type "nslookup www.google.com" it replys with IP Address of google and it essentially looked up all the stuff about google and returned the IP Address to us.**
 
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/a8f0939e-c407-43d0-949a-78e87ce13ef9)
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/4b11f20d-c618-46bb-b127-016fdbc60e9d)
+![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/f3ddb129-3d21-474a-a8f8-a0d3ab5be41e)
+
+**13.) Finally, we can look at RDP traffic which in this case will be spamming in traffic beacuse we are currently using rdp becasue we are connected to remote desktop live to connect to Virtual Machines even refreshing wont slow it down. Other than that this project showed me how port and protocols work within a live interaction and demonstration.  
 
 
 
