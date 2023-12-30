@@ -52,7 +52,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/e06c88e9-d1a4-4be7-af3f-c0a46966443c)
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/9e7b083a-5c14-4e20-9fe6-c524ed2a2d5f)
 
-**5.) Now this should show our actual live traffic thats happening in our VM, then to filter this traffic we can go on top and type "ICMP" where nothing shows beacuse this is the protocol that "Ping" which just test connectivity to different host on the network. So now that we see its empty we will try to ping VM2 and bring live traffic to ICMP.
+**5.) Now this should show our actual live traffic thats happening in our VM, then to filter this traffic we can go on top and type "ICMP" where nothing shows beacuse this is the protocol that "Ping" which just test connectivity to different host on the network. So now that we see its empty we will try to ping VM2 and bring live traffic to ICMP.**
 
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/2d5574d3-8e98-4953-a6a7-46337d111777)
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/d54349fa-9121-401c-b4cc-4a7bdd3ea2ab)
@@ -68,11 +68,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/bde93550-f0a8-41a5-824b-863ebf3aef2e)
 
-*8.) After the Perpetual ping we will gop back into Azure and go to Network Security Gropus and Deny Inbound ICMP traffic through Azures built in Firewall 
+**8.) After the Perpetual ping we will gop back into Azure and go to Network Security Gropus and Deny Inbound ICMP traffic through Azures built in Firewall**
 
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/14cf392e-c31a-4608-aeca-d4d89328988b)
 
-**9.) When we come back into VM1 remote desktop you can see that pings are request only and timed out which shows that the firewall is working as it should be by blocking all inbound ICMP traffic then after you can have enable ICMP traffic back to allow instead of deny.**
+**9.) When we come back into VM1 remote desktop you can see that pings are request only and timed out which shows that the firewall is working as it should be by blocking all inbound ICMP traffic, then after you are done inspecting you can enable ICMP traffic back to allow instead of deny.**
 
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/8ca14ae2-b1c4-48d0-94cd-81f7fd197852)
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/88578312-8227-409f-ae0f-f7d8ee338987)
@@ -93,7 +93,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/4b11f20d-c618-46bb-b127-016fdbc60e9d)
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/f3ddb129-3d21-474a-a8f8-a0d3ab5be41e)
 
-**13.) Finally, we can look at RDP traffic which in this case will be spamming in traffic beacuse we are currently using rdp becasue we are connected to remote desktop live to connect to Virtual Machines even refreshing wont slow it down. Other than that this project showed me how port and protocols work within a live interaction and demonstration.** 
+**13.) Finally, we can look at RDP traffic which in this case will be spamming in traffic beacuse we are currently using rdp becasue we are connected to remote desktop live to connect to Virtual Machines even refreshing wont slow it down. Other than that this project showed me how port and protocols work within a live interaction and demonstrates how firewalls work with certain protocols.** 
 
 
 
