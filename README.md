@@ -42,7 +42,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/3d66730f-749b-42d4-a910-b6925c42d5d7)
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/3831973c-d4ae-41c3-99c6-4002f32e8b79)
 
-**3.) Once all your VM's are ready go to VM1 and copy and paste the Public IP address to Remote Desktop and connect with the username and password that you created. From there go to microsoft edge and download Wireshark**
+**3.) Once all your VM's are ready go to VM1 and copy and paste the Public IP address to Remote Desktop and connect with the username and password that you created. From there go to microsoft edge and download Wireshark.**
 
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/c7875bd7-a1ff-47d6-a4ae-44f7be352d87)
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/de678919-2887-4e79-973a-d33d2836ea0e)
