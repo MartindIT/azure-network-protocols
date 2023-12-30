@@ -68,7 +68,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/bde93550-f0a8-41a5-824b-863ebf3aef2e)
 
-**8.) After the Perpetual ping we will gop back into Azure and go to Network Security Gropus and Deny Inbound ICMP traffic through Azures built in Firewall**
+**8.) After the Perpetual ping we will go back into Azure and go to Network Security Gropus and Deny Inbound ICMP traffic through Azures built in Firewall**
 
 ![image](https://github.com/MartindIT/azure-network-protocols/assets/151476834/14cf392e-c31a-4608-aeca-d4d89328988b)
 
